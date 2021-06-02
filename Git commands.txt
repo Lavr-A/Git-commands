@@ -1,0 +1,24 @@
+Команды GIT
+git init- позволяет проинициализировать репозиторий в текущей папке.
+git status- показывает текущий статус.
+git add - отслеживает изменение файлов.
+git add index.html - добовляет index.html
+git add. добовляет все файлы.
+git commit - сохраняет изменения в commit.
+git commi-m 'commit message' - создает коммит с сообщением.
+git branch - работа с ветками в репозитории.
+git branch branch-name - создает новую ветку branch name.
+git branch -D branch name - удаляет ветку branch name.
+git checkout - переключение на другую ветку.
+git checkout branch name - переключается на последний коммит в ветке branch name.
+git checkout -b branch name - создает и переключается на ветку branch name.
+git merge - совмещает текущую ветку с выбранной.
+git merge branch name - совмещает текущую ветку с branch name.
+git config - конфигурация и параметры git.
+git config -- global user.name - показывает имя пользователя.
+git config -- global user.name 'new user' - изменяет имя пользователя.
+git config -- global user.email - показывает email пользователя.
+git push - заливает текущие локальные коммиты в удаленный репозиторий.
+git pull - забирает измениения с удаленного репозитория в локальный.
+git-clone - клонирует проект с удаленного репозитория.
+ 
